@@ -1,18 +1,84 @@
-# React + Vite
+# Todoslist
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern productivity workspace for managing tasks, reminders, timers, planning, and personal productivity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Tasks: CRUD, priorities, due dates, categories, tags, search, filters, sorting
+- Projects and custom lists
+- Subtasks and recurring tasks
+- One-time and recurring reminders
+- Countdown and Pomodoro timers
+- Day/week/month calendar
+- Productivity dashboard
+- Daily goals
+- Streaks and achievements
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- JavaScript
+- CSS
 
-Note: This will impact Vite dev & build performances.
+## Getting Started
 
-## Expanding the ESLint configuration
+Prerequisites: Node.js 18+ and npm.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <your-repository-url>
+cd Todoslist
+npm install
+npm run dev
+```
+
+Open the local URL shown by Vite.
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── Header/
+│   ├── Sidebar/
+│   ├── Task/
+│   ├── Reminder/
+│   ├── Timer/
+│   ├── Calendar/
+│   ├── Dashboard/
+│   └── common/
+├── pages/
+│   ├── Dashboard/
+│   ├── Tasks/
+│   ├── Reminders/
+│   ├── Calendar/
+│   └── Timer/
+├── hooks/
+├── services/
+├── utils/
+├── data/
+├── types/
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Roadmap
+
+### Phase 1 — Task Foundation
+Task CRUD, completion, priority, due date/time, categories, tags, search, filters, sorting, and local persistence.
+
+### Phase 2 — Productivity
+Projects/lists, subtasks, recurring tasks, reminders, notifications, countdown timer, Pomodoro, and calendar.
+
+### Phase 3 — Insights
+Productivity dashboard, daily goals, focus statistics, streaks, and achievements.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request.
+
+## License
+
+MIT License.
