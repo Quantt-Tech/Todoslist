@@ -1,4 +1,13 @@
 # Todoslist
+## 📌 Project Level
+
+🟢 **Basic**
+
+**Tech Stack:** React • Vite • JavaScript • CSS
+
+**Contribution Areas:** Frontend • UI/UX • Feature Development
+
+**Suitable For:** First-time open-source contributors
 
 A modern productivity workspace for managing tasks, reminders, timers, planning, and personal productivity.
 
